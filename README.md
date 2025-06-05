@@ -73,7 +73,20 @@ Smart-Fire-Extinguisher/
 2. Select board: `Generic ESP8266 Module` or compatible
 3. Upload code with Wi-Fi and Gmail credentials
 
+---
 
+## 🧩 System Working Mode (After Upload)
+
+After uploading code to both ATmega328P and ESP8266:
+
+- Set the board to **Normal Operation Mode**:
+  - Turn ON: `SW1`, `SW2`, `SW5`, `SW6`
+- This enables:
+  - Serial communication from ATmega328P to ESP8266
+  - Email alerts on fire/gas detection
+- 🔄 **Important:** Press the reset button after setting the switches.
+
+> If using separate ESP8266 module: ensure TX/RX are cross-connected (TX → RX, RX → TX)
 
 ---
 
