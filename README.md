@@ -62,7 +62,8 @@ Smart-Fire-Extinguisher/
 
 ### 🔧 Firmware Upload Instructions
 
-📝 If you are using a board with built-in ESP8266 (like Arduino UNO WiFi R3), DIP switches are onboard. If you are using separate arduino and esp8266 modules you can skip that step. Only make sure TX/RX connections are properly made.
+📝 - If you are using a board with built-in ESP8266 (like Arduino UNO WiFi R3), DIP switches are onboard.**Important:** Press the reset button after setting the switches.
+   - If you are using separate arduino and esp8266 modules you can skip that step. Only make sure TX/RX connections are properly made.
 
 #### Step 1: Upload `fire_detection.ino` to ATmega328P
 
@@ -87,7 +88,7 @@ After uploading code to both ATmega328P and ESP8266:
 - This enables:
   - Serial communication from ATmega328P to ESP8266
   - Email alerts on fire/gas detection
-- 🔄 **Important:** Press the reset button after setting the switches.
+
 
 > If using separate ESP8266 module: ensure TX/RX are cross-connected (TX → RX, RX → TX)
 
