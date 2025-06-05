@@ -33,16 +33,17 @@ Smart-Fire-Extinguisher/
 
 ## 🛠️ Hardware Components
 
-| Component                          | Quantity  | Function                        |
-| ---------------------------------- | --------- | ------------------------------- |
-| Arduino UNO WiFi R3 (with ESP8266) | 1         | Main controller & communication |
-| MQ-2 Gas Sensor                    | 1         | Smoke/Gas detection             |
-| IR Flame Sensor                    | 1         | Flame detection                 |
-| 5V Relay Module                    | 1         | Controls pump power             |
-| 5V Mini Water Pump                 | 1         | Fire suppression                |
-| Piezo Buzzer                       | 1         | Local audio alarm               |
-| 7.4V Li-ion Battery                | 1         | Pump power source               |
-| Breadboard + Jumper Wires          | as needed | Circuit connection              |
+| Component                          | Quantity  | Function                                     |
+| ---------------------------------- | --------- | ---------------------------------------------|
+| Arduino UNO WiFi R3 (with ESP8266) | 1         | Main controller & communication              |
+| MQ-2 Gas Sensor                    | 1         | Smoke/Gas detection                          |
+| IR Flame Sensor                    | 1         | Flame detection                              |
+| 5V Relay Module                    | 1         | Controls pump power                          |
+| 5V Mini Water Pump                 | 1         | Fire suppression                             |
+| Piezo Buzzer                       | 1         | Local audio alarm                            |
+| 7.4V Li-ion Battery                | 1         | Pump power source                            |
+| Micro USB cable                    | 1         | Used to upload code in the development board |
+| Breadboard + Jumper Wires          | as needed | Circuit connection                           |
 
 ---
 
@@ -60,6 +61,8 @@ Smart-Fire-Extinguisher/
 ---
 
 ### 🔧 Firmware Upload Instructions
+
+📝 If you are using a board with built-in ESP8266 (like Arduino UNO WiFi R3), DIP switches are onboard. If you are using separate arduino and esp8266 modules you can skip that step. Only make sure TX/RX connections are properly made.
 
 #### Step 1: Upload `fire_detection.ino` to ATmega328P
 
