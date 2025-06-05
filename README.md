@@ -1,7 +1,7 @@
 
 # 🔥 Smart Fire Extinguisher System
 
-An IoT-based fire safety system integrating real-time fire and gas detection with automated suppression and email alerts. Built using Arduino (ATmega328P), ESP8266 Wi-Fi module, flame & gas sensors, relay-controlled pump, and Blynk-compatible email notification.
+An IoT-based fire safety system integrating real-time fire and gas detection with automated suppression and email alerts. Built using Arduino (ATmega328P), ESP8266 Wi-Fi module, flame & gas sensors, relay-controlled pump, and email alert.
 
 ---
 
