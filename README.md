@@ -116,7 +116,7 @@ After uploading code to both ATmega328P and ESP8266:
 
 ---
 
-## 📽️ Demo Videos
+## 📽️ Demo Video
 
 📹 [Watch full system demo on OneDrive](https://1drv.ms/f/c/17379a8d00e56608/Elkq8_bAppNKhEwiy_Wv5YoBSW8DZHRFnPpKoW_WTOMAiQ?e=iUItCe)
 
@@ -133,10 +133,6 @@ Please refer to the [`Smart_Fire_Extinguisher_Project_Report.pdf`](Smart_Fire_Ex
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-## 👥 Authors
 
-- **Iqra Fatima** — [@IqraFatima-Coder](https://github.com/IqraFatima-Coder)  
-- **Ayesha Noor** — [@ayeshanoor](https://github.com/ayeshanoor)  
-- **Fatima Zahra** — [@fatimazahra](https://github.com/fatimazahra)
-  
+
 
